@@ -63,8 +63,16 @@ int data,data1;
     }
       public void insertEnd(int data) 
     {    
-       //TYPE YOUR CODE HERE 
-    }  
+        Node newNode = new Node(data);
+        if (head == null) {
+           head = newNode;
+          tail = newNode;
+          } else {
+          tail.next = newNode;
+        tail = newNode;
+      }
+      System.out.println("Element Inserted");
+         }  
      
 public void displayList() {
         Node current = head;
