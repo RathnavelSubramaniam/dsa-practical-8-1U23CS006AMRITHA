@@ -67,7 +67,8 @@ int data,data1;
         if (head == null) {
            head = newNode;
           tail = newNode;
-          } else {
+          } 
+          else {
           tail.next = newNode;
         tail = newNode;
       }
