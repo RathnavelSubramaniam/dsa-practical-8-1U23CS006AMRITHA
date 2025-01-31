@@ -65,8 +65,8 @@ int data,data1;
     {    
        Node newNode=new Node(data);
        if(head==null){
-        head= newNode;
-        tail= newNode;
+        head=newNode;
+        tail=newNode;
        }
        else{
         Node temp=head;
