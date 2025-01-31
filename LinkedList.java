@@ -61,7 +61,7 @@ int data,data1;
           }
         }
     }
-     public void insertEnd(int data) 
+      public void insertEnd(int data) 
     {    
        Node newNode=new Node(data);
        if(head==null){
@@ -76,7 +76,7 @@ int data,data1;
         temp.next=newNode;
         System.out.println("Element Inserted");
        }
-    }   
+    }  
      
 public void displayList() {
         Node current = head;
